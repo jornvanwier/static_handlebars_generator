@@ -1,3 +1,4 @@
+```
 Static Handlebars Generator 0.1
 Jorn van Wier <contact@jornvanwier.com>
 Renders templates using supplied data for usage in static websites.
@@ -19,3 +20,4 @@ ARGS:
     <file>            The file to render, other required files (e.g. partials) will be automatically included.
                       Should be without any extensions. The program will look for a template and a date file with
                       the approriate extensions in the template_dir and data_dir.
+```
