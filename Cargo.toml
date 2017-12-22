@@ -1,0 +1,13 @@
+[package]
+name = "static_handlebars_generator"
+version = "0.1.0"
+authors = ["= <=>"]
+
+[dependencies]
+clap = "~2.29"
+serde_json = "1.0"
+
+[dependencies.rocket_contrib]
+version = "*"
+default-features = false
+features = ["handlebars_templates"]
